@@ -1,6 +1,6 @@
 Live demo: https://timhutton.github.io/sdl-canvas-wasm/
 
-This is the branch with the compiled code. See the source code on the [master branch](https://github.com/timhutton/sdl-canvas-wasm/tree/master).
+See the compiled code on the gh-pages branch: https://github.com/timhutton/sdl-canvas-wasm/tree/gh-pages
 
 Build index.js and index.wasm with Emscripten:
 
