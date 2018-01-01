@@ -32,7 +32,9 @@ void mainloop(void *arg)
             int alpha = (i+j) % 255;
           #endif
             int red = (j+ctx->iteration) % 255;
-            *((Uint32*)screen->pixels + i * 256 + j) = SDL_MapRGBA(screen->format, red, 0,0,alpha);//j, 255-i, alpha);
+            int green = 0;
+            int blue = 0;
+            *((Uint32*)screen->pixels + i * 256 + j) = SDL_MapRGBA(screen->format, red, green, blue, alpha);
         }
     }
     if (SDL_MUSTLOCK(screen))
