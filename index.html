@@ -4,20 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <style>
-        canvas.emscripten {
-            border: 0px none;
-            margin-left:auto;
-            margin-right:auto;
-            display:block
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Create the canvas that the C++ code will draw into -->
-    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 
     <!-- Allow the C++ to access the canvas element --> 
     <script type='text/javascript'>
