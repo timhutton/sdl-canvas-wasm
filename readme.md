@@ -1,5 +1,7 @@
 Live demo: https://timhutton.github.io/sdl-canvas-wasm/
 
+(If you want more sophisticated drawing than SDL can offer (e.g. 3D), then you should probably start [here](https://github.com/timhutton/opengl-canvas-wasm) instead.) 
+
 Instructions:
 -------------
 
