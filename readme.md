@@ -23,9 +23,11 @@ Instructions:
 
     ![image](https://user-images.githubusercontent.com/647092/34481732-a649fefa-efab-11e7-9fe3-aa0c9c870858.png)
 
-    Chrome doesn't support file:// XHR requests, so you need to first start a webserver:
+    Chrome doesn't support file:// XHR requests, so you need to first start a webserver, e.g.:
 
-    ```python -m SimpleHTTPServer 8080```
+    with Python 2: ```python -m SimpleHTTPServer 8080```
+    
+    with Python 3: ```python -m http.server 8080```
 
     and then open this URL:
 
